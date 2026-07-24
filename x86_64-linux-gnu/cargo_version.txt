@@ -1,0 +1,9 @@
+cargo 1.77.2 (e52e36006 2024-03-26)
+release: 1.77.2
+commit-hash: e52e360061cacbbeac79f7f1215a7a90b6f08442
+commit-date: 2024-03-26
+host: x86_64-unknown-linux-gnu
+libgit2: 1.7.2 (sys:0.18.2 vendored)
+libcurl: 8.5.0-DEV (sys:0.4.70+curl-8.5.0 vendored ssl:OpenSSL/1.1.1w)
+ssl: OpenSSL 1.1.1w  11 Sep 2023
+os: Debian 10 (buster) [64-bit]

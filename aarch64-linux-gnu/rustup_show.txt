@@ -1,0 +1,14 @@
+Default host: aarch64-unknown-linux-gnu
+rustup home:  /home/natsu/.rustup
+
+installed toolchains
+--------------------
+1.65.0-aarch64-unknown-linux-gnu (default)
+1.77.2-aarch64-unknown-linux-gnu (active)
+
+active toolchain
+----------------
+name: 1.77.2-aarch64-unknown-linux-gnu
+active because: overridden by '/source/platform/crosvm/rust-toolchain'
+installed targets:
+  aarch64-unknown-linux-gnu

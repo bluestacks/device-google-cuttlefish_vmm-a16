@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manifest>
+  <remote fetch=".." name="aosp" review="https://android-review.googlesource.com/"/>
+  <default remote="aosp" revision="main" sync-j="4"/>
+  <manifest-server url="http://android-smartsync.corp.google.com/android.googlesource.com/manifestserver"/>
+
+  <!-- Crosvm Dependencies -->
+  <project groups="crosvm" name="platform/external/crosvm" path="platform/crosvm" revision="f7a6dad8215137b703c281c9b6a68ccf3af223bc"/>
+  <project groups="crosvm" name="platform/external/libdrm" path="external/libdrm" revision="061d95fa324fb69af15c28d39464cd1297f2f1ba"/>
+  <project groups="crosvm" name="platform/external/libepoxy" path="third_party/libepoxy" revision="d2758901de61a18f099696d04e5b33bb790cc456"/>
+  <project groups="crosvm" name="platform/external/libffi" path="third_party/libffi" revision="479bc8d487cc34eac90a0fd1ca16ce1f23285ea1"/>
+  <project groups="crosvm" name="platform/external/minigbm" path="platform/minigbm" revision="b198c6e2337f78dd291f2d4ff78b04c8a3b897b1"/>
+  <project groups="crosvm" name="platform/external/minijail" path="platform/minijail" revision="80bc6882d75376d301a72877046c17cf322278a9"/>
+  <project groups="crosvm" name="platform/external/virglrenderer" path="third_party/virglrenderer" revision="e94347008e35f09bdf3ca54ee392c377dfa34896"/>
+  <project groups="crosvm" name="platform/external/wayland" path="third_party/wayland" revision="ed5af8bd00d3f791cde20cee8ea15ffb7d6cfabd"/>
+
+  <!-- Gfxstream Dependencies -->
+  <project groups="gfxstream" name="platform/external/angle" path="external/angle" revision="2662abb218d15807856f25b93e100bdb10e0db45"/>
+  <project groups="gfxstream" name="platform/external/flatbuffers" path="external/flatbuffers" revision="ecd19dd48a97b9e89fc9f387de5dce7e679e8077"/>
+  <project groups="gfxstream" name="platform/external/lz4" path="external/lz4" revision="99b28c87054679e66517c9c3c89fe99654e15cfc"/>
+  <project groups="gfxstream" name="platform/external/perfetto" path="external/perfetto" revision="33a4fd07897a9a648664926ea27769278a19ff13"/>
+  <!-- NOTE: Gfxstream sync'ed via the rebuild-internal.sh script after the move to github -->
+
+  <!-- SwiftShader Dependencies -->
+  <project groups="gfxstream" name="platform/external/swiftshader" path="external/swiftshader" revision="eb930236b5a3b82c0acc581af3bbc95deb87ad18"/>
+
+</manifest>
